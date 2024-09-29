@@ -1,0 +1,7 @@
+- 👋 Hi, I’m @miskajurostudios
+- 👀 I’m interested in programing and making videos (youtube/@miskajuro)
+- 🌱 I’m currently learning C++ & Python
+- 💞️ I’m looking to collaborate on multi-tool software
+- 📫 How to reach me at miskajuro.qaa@gmail.com
+- 😄 Pronouns: he/his/him who knows the order (i don't)
+- ⚡ Fun fact: Eeee I have a youtube channell..... ? :D

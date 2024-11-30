@@ -5,7 +5,7 @@ My original account is
 (youtube.com/@MiskaJuro)
 
 <p align="center">
- <img width="600" src="Parad1st-snake.svg" alt="snake"/>
+ <img width="600" src="Snake.svg" alt="snake"/>
 </p>
 
 I use HTML, CSS, VBS, Python and a bit of JavaScript

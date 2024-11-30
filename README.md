@@ -8,6 +8,10 @@ My original account is
  <img width="600" src="snake.svg" alt="snake"/>
 </p>
 
+<p align="center">
+ <img width="600" src="test.svg" alt="snake"/>
+</p>
+
 I use HTML, CSS, VBS, Python and a bit of JavaScript
 Newly I'm trying to lear C# and maybe try C or C++ !!!
 

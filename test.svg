@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+  <!-- Lighter dice -->
+  <g id="dice">
+    <rect x="50" y="50" width="50" height="50" fill="lightgray"/>
+    <rect x="120" y="50" width="50" height="50" fill="lightgray"/>
+    <rect x="190" y="50" width="50" height="50" fill="lightgray"/>
+    <rect x="260" y="50" width="50" height="50" fill="lightgray"/>
+    <rect x="330" y="50" width="50" height="50" fill="lightgray"/>
+    <rect x="400" y="50" width="50" height="50" fill="lightgray"/>
+    <rect x="470" y="50" width="50" height="50" fill="lightgray"/>
+  </g>
+  
+  <!-- Snake -->
+  <g id="snake">
+    <path d="M50 150 Q150 200, 250 150 Q350 100, 450 150" stroke="purple" fill="transparent" stroke-width="10"/>
+    <animateMotion repeatCount="indefinite" dur="4s">
+      <mpath href="#snake"/>
+    </animateMotion>
+  </g>
+
+  <!-- MJ STUDIOS text appearing along the path -->
+  <text x="450" y="150" font-size="30" fill="purple" font-family="Arial">MJ STUDIOS</text>
+  
+  <!-- JavaScript to simulate the erasing effect -->
+  <script>
+    // Erasing dice effect - (example in concept, would require more advanced coding for interactivity)
+    let dice = document.querySelectorAll('#dice rect');
+    let path = document.querySelector('path');
+    
+    path.addEventListener('animationiteration', function() {
+      // Erase the first dice on each iteration of the snake animation
+      dice[0].setAttribute('fill', 'white'); // Set the dice to white (effectively "erased")
+      dice = Array.from(dice).slice(1); // Remove the erased dice from the list
+    });
+  </script>
+</svg>
